@@ -1,4 +1,3 @@
-# Black-and-white-picture-streamlit
 # Сжатие изображения с использованием SVD
 
 Это приложение на основе Streamlit, которое позволяет пользователям загружать черно-белые изображения и сжимать их с использованием Singular Value Decomposition (SVD).
@@ -7,6 +6,7 @@
 
 - [Установка](#установка)
 - [Использование](#использование)
+- [Пример](#пример)
 
 ## Установка
 
@@ -21,7 +21,7 @@
 
     ```bash
     python -m venv venv
-    source venv/bin/activate
+    source venv/bin/activate  # Для Windows используйте `venv\Scripts\activate`
     ```
 
 3. Установите необходимые зависимости:
